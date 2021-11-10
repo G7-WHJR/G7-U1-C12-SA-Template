@@ -1,4 +1,4 @@
-var white,black;
+var white,black,red;
 
 function setup() {
   createCanvas(innerWidth, innerHeight);
@@ -6,14 +6,15 @@ function setup() {
   header();
 }
 
-
 function draw() {
   
   white = new ColorBox(0, 50, 50, 50, "white");
   white.appear();
   black = new ColorBox(0, 100, 50, 50, "black");
   black.appear();
-    
+  //code for red box :
+  
+   
 }
 
 function header() {
