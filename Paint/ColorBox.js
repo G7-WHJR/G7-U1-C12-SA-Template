@@ -1,10 +1,10 @@
-//class with all of the color box info
 class ColorBox {
   
+    //Add code inside the constructor:
     constructor(x, y, w, h, color) {
     
       
-  }
+    }
 
     //make the color boxes appear on canvas
     appear()
